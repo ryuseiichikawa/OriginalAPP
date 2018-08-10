@@ -114,7 +114,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        self.title = "タイムライン"
+        self.title = "たいむらいん"
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "投稿", style: UIBarButtonItemStyle.plain, target: self, action: #selector(ViewController.toPostViewController(sender:)))
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "LogOut", style: UIBarButtonItemStyle.plain, target: self, action: #selector(ViewController.logout))
        
