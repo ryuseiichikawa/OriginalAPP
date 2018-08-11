@@ -183,15 +183,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4Q-Ia-hD9">
-                                <rect key="frame" x="234" y="596" width="71" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="SignUp"/>
-                                <connections>
-                                    <action selector="tapSignUpButton:" destination="qrS-XV-doY" eventType="touchUpInside" id="DOq-x9-gab"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVJ-uq-hSJ">
                                 <rect key="frame" x="54" y="596" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -206,7 +197,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="自己紹介" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3Rb-Op-m3g">
-                                <rect key="frame" x="62" y="360" width="240" height="208"/>
+                                <rect key="frame" x="62" y="360" width="240" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -227,6 +218,15 @@
                                 <state key="normal" title="photo"/>
                                 <connections>
                                     <action selector="tapPhotoButton:" destination="qrS-XV-doY" eventType="touchUpInside" id="w8l-cw-GyA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4Q-Ia-hD9">
+                                <rect key="frame" x="206" y="596" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="SignUp"/>
+                                <connections>
+                                    <action selector="tapSignUpButton:" destination="qrS-XV-doY" eventType="touchUpInside" id="DOq-x9-gab"/>
                                 </connections>
                             </button>
                         </subviews>
