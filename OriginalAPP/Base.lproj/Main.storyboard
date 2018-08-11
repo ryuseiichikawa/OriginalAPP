@@ -170,41 +170,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ot7-Dn-31s">
-                                <rect key="frame" x="60" y="236" width="261" height="30"/>
+                                <rect key="frame" x="57" y="207" width="261" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nrl-yS-5DV">
-                                <rect key="frame" x="60" y="293" width="245" height="30"/>
+                                <rect key="frame" x="60" y="259" width="245" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVJ-uq-hSJ">
-                                <rect key="frame" x="54" y="596" width="80" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="LogIn"/>
-                                <connections>
-                                    <action selector="tapLoginButton:" destination="qrS-XV-doY" eventType="touchUpInside" id="pDT-I6-tzU"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iKE-Ro-Xq4">
-                                <rect key="frame" x="70" y="42" width="240" height="128"/>
+                                <rect key="frame" x="70" y="42" width="240" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="自己紹介" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3Rb-Op-m3g">
-                                <rect key="frame" x="62" y="360" width="240" height="111"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3Rb-Op-m3g">
+                                <rect key="frame" x="60" y="314" width="240" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcm-hr-c5D">
-                                <rect key="frame" x="101" y="187" width="42" height="30"/>
+                                <rect key="frame" x="102" y="169" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="album"/>
                                 <connections>
@@ -213,7 +204,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdY-oU-N8g">
-                                <rect key="frame" x="237" y="187" width="40" height="30"/>
+                                <rect key="frame" x="237" y="169" width="40" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="photo"/>
                                 <connections>
@@ -221,12 +212,35 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4Q-Ia-hD9">
-                                <rect key="frame" x="206" y="596" width="71" height="30"/>
+                                <rect key="frame" x="145" y="443" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="SignUp"/>
                                 <connections>
                                     <action selector="tapSignUpButton:" destination="qrS-XV-doY" eventType="touchUpInside" id="DOq-x9-gab"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="41W-fy-IFN">
+                                <rect key="frame" x="57" y="491" width="270" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E6q-8D-BWS">
+                                <rect key="frame" x="60" y="552" width="267" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVJ-uq-hSJ">
+                                <rect key="frame" x="140" y="617" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="LogIn"/>
+                                <connections>
+                                    <action selector="tapLoginButton:" destination="qrS-XV-doY" eventType="touchUpInside" id="pDT-I6-tzU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -236,8 +250,10 @@
                     <navigationItem key="navigationItem" id="ynU-QH-OXi"/>
                     <connections>
                         <outlet property="aboutUserTextView" destination="3Rb-Op-m3g" id="Unh-bI-F63"/>
+                        <outlet property="passwordLogInTextField" destination="E6q-8D-BWS" id="xCC-PY-H5u"/>
                         <outlet property="passwordTextField" destination="Nrl-yS-5DV" id="aIl-Ak-Bxj"/>
                         <outlet property="userImage" destination="iKE-Ro-Xq4" id="UQV-Vt-0t9"/>
+                        <outlet property="userNameLogInTextField" destination="41W-fy-IFN" id="G5R-YI-4dZ"/>
                         <outlet property="userNameTextField" destination="ot7-Dn-31s" id="Vpt-Wk-Tca"/>
                     </connections>
                 </viewController>

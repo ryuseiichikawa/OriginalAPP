@@ -15,6 +15,8 @@ class LoginViewController: UIViewController, UIImagePickerControllerDelegate, UI
     @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var aboutUserTextView: UITextView!
     
+    @IBOutlet weak var userNameLogInTextField: UITextField!
+    @IBOutlet weak var passwordLogInTextField: UITextField!
     
     
     override func viewDidLoad() {
@@ -29,7 +31,7 @@ class LoginViewController: UIViewController, UIImagePickerControllerDelegate, UI
     }
     
     @IBAction func tapLoginButton(_ sender: UIButton) {
-        let user = User(userNm: userNameTextField.text!, passWd: passwordTextField.text!)
+        let user = User(userNm: userNameLogInTextField.text!, passWd: passwordTextField.text!)
         user.login { (message) in
             if let unwrappedMessage = message {
                 self.showAlert(message: unwrappedMessage)
@@ -41,7 +43,7 @@ class LoginViewController: UIViewController, UIImagePickerControllerDelegate, UI
     }
     
     @IBAction func tapSignUpButton(_ sender: UIButton) {
-        let user = User(userNm: userNameTextField.text!, passWd: passwordTextField.text!)
+        let user = User(userNm: userNameTextField.text!, passWd: passwordLogInTextField.text!)
 //        let userDB = UserDB(aboutUs: aboutUserTextView.text!, profileImg: UIImage())
 //        
         user.signUp { (message) in
