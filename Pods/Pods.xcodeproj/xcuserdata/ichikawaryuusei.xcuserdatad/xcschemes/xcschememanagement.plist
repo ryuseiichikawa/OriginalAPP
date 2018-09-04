@@ -4,6 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+<<<<<<< HEAD
 		<key>FirebaseAuth.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -39,25 +40,36 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+=======
+>>>>>>> 30deac90606681b41dfe44a6de300c7892b14f34
 		<key>Pods-OriginalAPP.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>7</integer>
+=======
+			<integer>0</integer>
+>>>>>>> 30deac90606681b41dfe44a6de300c7892b14f34
 		</dict>
 		<key>Pods-OriginalAPPTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>8</integer>
+=======
+			<integer>1</integer>
+>>>>>>> 30deac90606681b41dfe44a6de300c7892b14f34
 		</dict>
 		<key>Pods-OriginalAPPUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>9</integer>
 		</dict>
 		<key>leveldb-library.xcscheme</key>
@@ -73,6 +85,9 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>6</integer>
+=======
+			<integer>2</integer>
+>>>>>>> 30deac90606681b41dfe44a6de300c7892b14f34
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

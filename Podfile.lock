@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 PODS:
   - Firebase/Auth (5.6.0):
     - Firebase/CoreOnly
@@ -98,5 +99,8 @@ SPEC CHECKSUMS:
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
 
 PODFILE CHECKSUM: bc550211552797c621e0c9b1c3b3776169c37aec
+=======
+PODFILE CHECKSUM: b70e1dcd16bf856ffe7319244bb5c055d3bf1478
+>>>>>>> 30deac90606681b41dfe44a6de300c7892b14f34
 
 COCOAPODS: 1.5.3

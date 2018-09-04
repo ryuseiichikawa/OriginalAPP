@@ -16,9 +16,7 @@
 		1603826720F0771B005C278E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1603826520F0771B005C278E /* LaunchScreen.storyboard */; };
 		1603827220F0771B005C278E /* OriginalAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1603827120F0771B005C278E /* OriginalAPPTests.swift */; };
 		1603827D20F0771B005C278E /* OriginalAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1603827C20F0771B005C278E /* OriginalAPPUITests.swift */; };
-		160F2CF921393483007C7803 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 160F2CF821393482007C7803 /* GoogleService-Info.plist */; };
 		1613882E20FF0DF100C7F5BC /* NCMB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1613882D20FF0DF100C7F5BC /* NCMB.framework */; };
-		164B8813213E2D1F004561AF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164B8812213E2D1F004561AF /* SignUpViewController.swift */; };
 		169282712100A6100076BA57 /* TweetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169282702100A6100076BA57 /* TweetManager.swift */; };
 		16A3DC6920FCAE6F00F466FE /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A3DC6720FCAE6F00F466FE /* SecondTableViewCell.swift */; };
 		16A3DC6A20FCAE6F00F466FE /* SecondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A3DC6820FCAE6F00F466FE /* SecondTableViewCell.xib */; };
@@ -68,10 +66,8 @@
 		1603827820F0771B005C278E /* OriginalAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OriginalAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1603827C20F0771B005C278E /* OriginalAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalAPPUITests.swift; sourceTree = "<group>"; };
 		1603827E20F0771B005C278E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		160F2CF821393482007C7803 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1613882D20FF0DF100C7F5BC /* NCMB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NCMB.framework; sourceTree = "<group>"; };
 		1613882F20FF0ED900C7F5BC /* OriginalApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OriginalApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		164B8812213E2D1F004561AF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		169282702100A6100076BA57 /* TweetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetManager.swift; sourceTree = "<group>"; };
 		16A3DC6720FCAE6F00F466FE /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
 		16A3DC6820FCAE6F00F466FE /* SecondTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondTableViewCell.xib; sourceTree = "<group>"; };
@@ -149,7 +145,6 @@
 		1603825B20F0771A005C278E /* OriginalAPP */ = {
 			isa = PBXGroup;
 			children = (
-				160F2CF821393482007C7803 /* GoogleService-Info.plist */,
 				16A88C6C20F5C72700AE9345 /* Xib */,
 				1603828C20F0775D005C278E /* Controllers */,
 				1603828B20F0774E005C278E /* Views */,
@@ -209,7 +204,6 @@
 				16A88C6A20F5840C00AE9345 /* ProfileViewController.swift */,
 				16F9489120F87FC200F07A3A /* PostViewController.swift */,
 				160327972109C96600BC3CF5 /* LoginViewController.swift */,
-				164B8812213E2D1F004561AF /* SignUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -259,7 +253,6 @@
 				1603825520F0771A005C278E /* Sources */,
 				1603825620F0771A005C278E /* Frameworks */,
 				1603825720F0771A005C278E /* Resources */,
-				01F162D8B17624A98547557B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -359,7 +352,6 @@
 				16A88C7020F5C77500AE9345 /* FirstTableViewCell.xib in Resources */,
 				1603826720F0771B005C278E /* LaunchScreen.storyboard in Resources */,
 				16A3DC6A20FCAE6F00F466FE /* SecondTableViewCell.xib in Resources */,
-				160F2CF921393483007C7803 /* GoogleService-Info.plist in Resources */,
 				1603826420F0771B005C278E /* Assets.xcassets in Resources */,
 				1603826220F0771A005C278E /* Main.storyboard in Resources */,
 			);
@@ -382,33 +374,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-<<<<<<< HEAD
-		01F162D8B17624A98547557B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-OriginalAPP/Pods-OriginalAPP-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OriginalAPP/Pods-OriginalAPP-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-=======
->>>>>>> 30deac90606681b41dfe44a6de300c7892b14f34
 		95929A1E3B26A2D312951887 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -478,7 +443,6 @@
 				1603825F20F0771A005C278E /* ViewController.swift in Sources */,
 				16A88C6F20F5C77500AE9345 /* FirstTableViewCell.swift in Sources */,
 				16A3DC6920FCAE6F00F466FE /* SecondTableViewCell.swift in Sources */,
-				164B8813213E2D1F004561AF /* SignUpViewController.swift in Sources */,
 				16F4968F210EA75E00E8D162 /* UserDB.swift in Sources */,
 				16A88C6B20F5840C00AE9345 /* ProfileViewController.swift in Sources */,
 				160327982109C96700BC3CF5 /* LoginViewController.swift in Sources */,

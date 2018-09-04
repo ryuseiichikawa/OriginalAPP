@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -18,7 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+<<<<<<< HEAD
         FirebaseApp.configure()
+=======
+>>>>>>> 30deac90606681b41dfe44a6de300c7892b14f34
         
         NCMB.setApplicationKey("e2c560b9b9ebebfde8034744950eec0a0763eb68b6cc10f64c97240670994bf9", clientKey: "fcb409e5dc7e829d6f015dc3ddb57a42b41627659a9f70090699cae865dda56c")
 //        NCMB.setApplicationKey("アプリケーションキー", clientKey: "クライアントキー")

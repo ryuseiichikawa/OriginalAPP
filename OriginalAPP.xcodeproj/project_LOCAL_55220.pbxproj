@@ -382,7 +382,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-<<<<<<< HEAD
 		01F162D8B17624A98547557B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,8 +406,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OriginalAPP/Pods-OriginalAPP-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-=======
->>>>>>> 30deac90606681b41dfe44a6de300c7892b14f34
 		95929A1E3B26A2D312951887 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
